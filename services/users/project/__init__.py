@@ -9,7 +9,6 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_debugtoolbar import DebugToolbarExtension
 
 
-
 # instantiate the db
 db = SQLAlchemy()
 toolbar = DebugToolbarExtension()
